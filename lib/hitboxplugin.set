@@ -1,4 +1,0 @@
-Hitbox plugin
-9|This plugin will render your cars hitbox in freeplay
-1|Render hitbox|cl_soccar_showhitbox
-6|Hitbox to render|cl_soccar_sethitboxtype|Currently equipped car@0&Octane@23&Dominus@403&Batmobile/Plank@803&Breakout@22&Hybrid@1624
