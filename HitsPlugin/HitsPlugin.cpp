@@ -171,6 +171,8 @@ Vector HitsPlugin::getRecalledVectorForCurrentCar(Vector carLocation, Rotator ca
 }
 void HitsPlugin::onHitBallWithCaller(CarWrapper caller, void* params, std::string eventName)
 {
+	if (!gameWrapper->IsInFreeplay() && !gameWrapper->IsInCustomTraining())
+		return;
 	/*
 	 * We have a new collision, so prepare the array index
 	 * always add one before new hit is recorded

@@ -992,23 +992,23 @@ C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(131,30)
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(131,22): warning C4309:  'argument': truncation of constant value
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(140,34): warning C4309:  'argument': truncation of constant value
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(140,23): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(218,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(219,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(220,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(221,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(222,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(223,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(254,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(255,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(224,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(225,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(256,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(257,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(258,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
 C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(259,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(260,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(261,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
      Creating library C:\Users\Caleb\VisualStudioProjects\HitsPlugin\Release\HitsPlugin.lib and object C:\Users\Caleb\VisualStudioProjects\HitsPlugin\Release\HitsPlugin.exp
   Generating code
-  0 of 475 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  3 of 475 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    7 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   HitsPlugin.vcxproj -> C:\Users\Caleb\VisualStudioProjects\HitsPlugin\Release\HitsPlugin.dll
   Copying HitsPlugin.dll
