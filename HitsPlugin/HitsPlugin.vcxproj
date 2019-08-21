@@ -49,9 +49,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="HitsPlugin.h" />
+    <ClInclude Include="MathFunctions.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HitsPlugin.cpp" />
+    <ClCompile Include="MathFunctions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

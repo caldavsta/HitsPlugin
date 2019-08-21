@@ -2,8 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="HitsPlugin.cpp" />
+    <ClCompile Include="MathFunctions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HitsPlugin.h" />
+    <ClInclude Include="MathFunctions.h" />
   </ItemGroup>
 </Project>
