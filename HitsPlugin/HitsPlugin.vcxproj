@@ -48,12 +48,12 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HelperFunctions.h" />
     <ClInclude Include="HitsPlugin.h" />
-    <ClInclude Include="MathFunctions.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HelperFunctions.cpp" />
     <ClCompile Include="HitsPlugin.cpp" />
-    <ClCompile Include="MathFunctions.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

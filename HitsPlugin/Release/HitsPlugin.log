@@ -984,31 +984,17 @@ D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\bakkesmod
 D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(61): message :  see declaration of 'std::shared_ptr<CVarManagerWrapper>'
 D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(62,44): warning C4251:  'BakkesMod::Plugin::BakkesModPlugin::gameWrapper': class 'std::shared_ptr<GameWrapper>' needs to have dll-interface to be used by clients of class 'BakkesMod::Plugin::BakkesModPlugin'
 D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\bakkesmodsdk\include\bakkesmod\plugin\bakkesmodplugin.h(62): message :  see declaration of 'std::shared_ptr<GameWrapper>'
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(113,33): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(113,28): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(113,20): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(131,35): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(131,30): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(131,22): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(140,34): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(140,23): warning C4309:  'argument': truncation of constant value
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(220,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(221,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(222,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(223,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(224,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(225,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(256,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(257,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(258,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(259,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(260,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(261,11): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.h(56,15): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.h(60,15): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(248,37): warning C4309:  'argument': truncation of constant value
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(248,32): warning C4309:  'argument': truncation of constant value
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(248,27): warning C4309:  'argument': truncation of constant value
+C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\HitsPlugin.cpp(248,22): warning C4309:  'argument': truncation of constant value
      Creating library C:\Users\Caleb\VisualStudioProjects\HitsPlugin\Release\HitsPlugin.lib and object C:\Users\Caleb\VisualStudioProjects\HitsPlugin\Release\HitsPlugin.exp
   Generating code
-  3 of 475 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+  2 of 554 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    7 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   HitsPlugin.vcxproj -> C:\Users\Caleb\VisualStudioProjects\HitsPlugin\Release\HitsPlugin.dll
   Copying HitsPlugin.dll
