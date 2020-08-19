@@ -8,4 +8,7 @@
     <ClInclude Include="HitsPlugin.h" />
     <ClInclude Include="HelperFunctions.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Caleb\VisualStudioProjects\HitsPlugin\HitsPlugin\hitsplugin.set" />
+  </ItemGroup>
 </Project>

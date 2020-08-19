@@ -4,6 +4,12 @@
 #include <ios>
 #include <iomanip>
 #include <sstream>
+#include <chrono>
+#include <memory>
+
+using std::vector;
+using std::string;
+using std::make_shared;
 constexpr auto HITS_ARRAY_SIZE = 20;
 /*
  * Params for ball collision

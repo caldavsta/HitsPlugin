@@ -1,6 +1,6 @@
 #include "HitsPlugin.h"
 #include "HelperFunctions.h"
-BAKKESMOD_PLUGIN(HitsPlugin, "HitsPlugin ", "0.1", PLUGINTYPE_FREEPLAY);
+BAKKESMOD_PLUGIN(HitsPlugin, "HitsPlugin ", "0.2", PLUGINTYPE_FREEPLAY);
 
 /*
  *	Written by Caleb Stamper 2019
@@ -28,7 +28,7 @@ void HitsPlugin::onLoad()
 {
 	ServerWrapper server_wrapper = gameWrapper->GetGameEventAsServer();
 
-	hitsShow = make_shared<bool>(true);
+	hitsShow = std::make_shared<bool>(true);
 	hitsShowAlways = make_shared<bool>(true);
 	hitsShowAmount = make_shared<int>(true);
 	cvarManager->registerCvar("hitsplugin_hits_show", "1", "Attempt to enable display of hits right now.", false, true, 0, true, 1).bindTo(hitsShow);

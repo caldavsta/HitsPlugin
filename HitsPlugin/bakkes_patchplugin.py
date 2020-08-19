@@ -10,7 +10,8 @@ TODO: save config?
 import sys, os, shutil, websockets, time
 import asyncio
 
-bakkesmod_plugin_folder = r"D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win32\bakkesmod\plugins\\"
+bakkesmod_plugin_folder = r"D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win64\bakkesmod\plugins\\"
+bakkesmod_settings_folder = r"D:\SteamLibrary\steamapps\common\rocketleague\Binaries\Win64\bakkesmod\plugins\settings\\"
 bakkesmod_server = 'ws://127.0.0.1:9002'
 rcon_password = 'password'
 swap_file = ""
@@ -18,7 +19,19 @@ swap_file = ""
 def replace_plugin_file():
 	filename = os.path.basename(swap_file)
 	dst_file = bakkesmod_plugin_folder + filename
-	print(dst_file)
+	print("plugin file: " + dst_file)
+	
+	if os.path.exists(dst_file):
+		os.remove(dst_file)
+	shutil.copyfile(swap_file, dst_file)
+
+def replace_settings_file():
+	filename = os.path.basename(swap_file)
+	#replace .dll with .set
+	filename = filename.replace(".dll",".set")
+
+	dst_file = bakkesmod_settings_folder + filename
+	print("settings file: " + dst_file)
 	
 	if os.path.exists(dst_file):
 		os.remove(dst_file)
@@ -36,11 +49,13 @@ async def main_loop():
 			print("Copying " + filename + "")
 			await websocket.send("plugin unload " + plugin_name)
 			time.sleep(0.1)
+			replace_settings_file()
 			replace_plugin_file()
 			time.sleep(0.1)
 			await websocket.send("plugin load " + plugin_name)
 	except:
 		replace_plugin_file()
+		replace_settings_file()
 
 
 if __name__ == '__main__':

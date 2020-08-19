@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HitsPlugin", "HitsPlugin\HitsPlugin.vcxproj", "{1B881774-3034-4CCA-81CD-341CE7285129}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestConsole", "TestConsole\TestConsole.vcxproj", "{7399AC26-C733-43F9-AEFF-25FCD70A8285}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -19,17 +17,10 @@ Global
 		{1B881774-3034-4CCA-81CD-341CE7285129}.Debug|x64.Build.0 = Release|Win32
 		{1B881774-3034-4CCA-81CD-341CE7285129}.Debug|x86.ActiveCfg = Release|Win32
 		{1B881774-3034-4CCA-81CD-341CE7285129}.Debug|x86.Build.0 = Release|Win32
-		{1B881774-3034-4CCA-81CD-341CE7285129}.Release|x64.ActiveCfg = Release|Win32
+		{1B881774-3034-4CCA-81CD-341CE7285129}.Release|x64.ActiveCfg = Release|x64
+		{1B881774-3034-4CCA-81CD-341CE7285129}.Release|x64.Build.0 = Release|x64
 		{1B881774-3034-4CCA-81CD-341CE7285129}.Release|x86.ActiveCfg = Release|Win32
 		{1B881774-3034-4CCA-81CD-341CE7285129}.Release|x86.Build.0 = Release|Win32
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Debug|x64.ActiveCfg = Debug|x64
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Debug|x64.Build.0 = Debug|x64
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Debug|x86.ActiveCfg = Debug|Win32
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Debug|x86.Build.0 = Debug|Win32
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Release|x64.ActiveCfg = Release|x64
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Release|x64.Build.0 = Release|x64
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Release|x86.ActiveCfg = Release|Win32
-		{7399AC26-C733-43F9-AEFF-25FCD70A8285}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
